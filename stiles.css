@@ -10,3 +10,19 @@ body{
     margin: 0 auto;
     text-align: justify;
 }
+
+header{
+    background-color: lightcoral;
+    padding: 20px;
+    text-align: left;
+}
+
+footer{
+    background-color: lightslategray;
+    padding: 20px;
+    text-align: left;
+}
+
+.container main img{
+    width: 100%;
+}
