@@ -1,0 +1,12 @@
+body{
+    background-color: blueviolet;
+}
+
+.container{
+    background-color:lightgreen;
+    width: 80%;
+    border: 10px solid red; 
+    padding: 30px;
+    margin: 0 auto;
+    text-align: justify;
+}
