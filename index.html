@@ -25,17 +25,50 @@
 
         <img src="img/foto_css.jpg" alt="">
 
-        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/tjAS4zk1-3Q?si=NnnVl07Vp7RFlQA2" autoplay title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/tjAS4zk1-3Q?si=NnnVl07Vp7RFlQA2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
         <div class="main_Principal">   
             <p>Bienvenido a nuestros servicios</p>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum ducimus quos vero enim recusandae, amet eveniet quo! Repellendus labore beatae porro, quae eveniet recusandae deserunt praesentium, cumque inventore repudiandae tempore.</p>
         </div>
 
+        <h2>Formulario de contacto</h2>
+
+        <form action="/action_page.php">
+            <label for="fname">Nombre</label>
+            <input type="text" id="fname" name="nombre completo" placeholder="Your name..">
+
+            <label for="lname">Contraseña</label>
+            <input type="password" id="lname" name="contraseña" placeholder="Your password..">
+
+            <label for="Cargo">Cargo</label>
+            <select id="Cargo" name="Cargo">
+                <option value="Administrador">Administrador</option>
+                <option value="Empleado">Empleado</option>
+                <option value="Cliente">Cliente</option>
+            </select>
+            
+            <input type="submit" value="Submit">
+        </form>
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7895.759217383229!2d-73.59952568543022!3d8.314760980309263!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e5d8f7d27c7bf07%3A0xa72b1dc51f284557!2sUniversidad%20Popular%20del%20Cesar%20-%20Aguachica!5e0!3m2!1ses-419!2sco!4v1773434191257!5m2!1ses-419!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>>
+
         </main>
 
         <footer>
-            <p>El pie de pagina</p>
+            <div class="redes">
+                <a href="https://www.facebook.com/">
+                <img src="../img/facebook.png" alt="Facebook">
+                </a>
+
+                <a href="https://www.instagram.com/">
+                <img src="../img/instagram.png" alt="Instagram">
+                </a>
+
+                <a href="https://www.twitter.com/">
+                <img src="../img/twitter.png" alt="Twitter">
+                </a>
+            </div>
         </footer>
     </div>    
 </body>
